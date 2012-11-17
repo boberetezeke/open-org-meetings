@@ -7,11 +7,11 @@ require "open-org-meetings/version"
 Gem::Specification.new do |s|
   s.name        = "open-org-meetings"
   s.version     = OpenOrgMeetings::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of OpenOrgMeetings."
-  s.description = "TODO: Description of OpenOrgMeetings."
+  s.authors     = ["Steve Tuckner"]
+  s.email       = ["stevetuckner@stewdle.com"]
+  s.homepage    = ""
+  s.summary     = "An open-org plugin that supports meeting tasks."
+  s.description = s.summary
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
